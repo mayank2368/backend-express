@@ -38,7 +38,7 @@ const errorHandler = (err, req, res, next) => {
         stacktrace: err.stack,
       });
     default:
-      console.log("Nein erroe, Alles Gut!!!");
+      console.log("Nein error, Alles Gut!!!");
       break;
   }
 };
